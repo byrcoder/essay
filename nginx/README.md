@@ -12,8 +12,8 @@ stream {
   map_hash_bucket_size 262;
 
   map $ssl_server_name $targetBackend {
-    1.ap-mumbai.mediapackage.srclivepull.myqcloud.com  127.0.0.1:9000;
-    2.ap-mumbai.mediapackage.srclivepull.myqcloud.com  127.0.0.1:9001;
+    1.com  127.0.0.1:9000;
+    2.com  127.0.0.1:9001;
   }
 
   map $ssl_server_name $targetCert {
