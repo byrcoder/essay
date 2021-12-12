@@ -1,0 +1,1 @@
+linux kernel启动和调用过程
