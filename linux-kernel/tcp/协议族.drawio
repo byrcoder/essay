@@ -1,17 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T12:28:21.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="wnKisg9iTqfwl9rinqbs" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-15T13:36:13.599Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="P6VEVy-P0S_D0ezz7EMn" version="16.1.0" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1826" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="1813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nPnTj5xX4SkfBffu697Y-64" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="-1190" width="1340" height="800" as="geometry" />
+        </mxCell>
         <mxCell id="nPnTj5xX4SkfBffu697Y-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeColor=#FFFFFF;fillColor=#A680B8;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="-360" width="1340" height="1340" as="geometry" />
+          <mxGeometry x="-200" y="-400" width="1340" height="1340" as="geometry" />
         </mxCell>
         <mxCell id="nPnTj5xX4SkfBffu697Y-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeColor=#FFFFFF;fillColor=#F8CECC;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-200" y="650" width="1340" height="1340" as="geometry" />
         </mxCell>
-        <mxCell id="17acba5748e5396b-20" value="net" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="410" y="-200" width="190" height="162" as="geometry" />
+        <mxCell id="17acba5748e5396b-20" value="&lt;b&gt;net&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-990" width="190" height="162" as="geometry">
+            <mxRectangle x="300" y="-308" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="17acba5748e5396b-21" value="+ core:&amp;nbsp;struct netns_ipv4&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="17acba5748e5396b-20" vertex="1">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
@@ -31,8 +36,8 @@
         <mxCell id="nPnTj5xX4SkfBffu697Y-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;fontColor=#000000;startFill=1;entryX=0.468;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="17acba5748e5396b-30" target="_SGdVM72hPZveykd37PC-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="17acba5748e5396b-30" value="inet_family_ops" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="811" y="282" width="320" height="100" as="geometry" />
+        <mxCell id="17acba5748e5396b-30" value="&lt;b&gt;inet_family_ops&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="810" y="-290" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="17acba5748e5396b-32" value="+ create:&amp;nbsp;&lt;span&gt;int inet_create(struct net *net, struct socket*sock, int protocol,&amp;nbsp;&lt;/span&gt;&lt;span&gt;int kern)&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="17acba5748e5396b-30" vertex="1">
           <mxGeometry y="26" width="320" height="38" as="geometry" />
@@ -40,19 +45,14 @@
         <mxCell id="17acba5748e5396b-31" value="+ family: PF_INET" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="17acba5748e5396b-30" vertex="1">
           <mxGeometry y="64" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="nPnTj5xX4SkfBffu697Y-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;fontColor=#000000;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5d2195bd80daf111-18" target="17acba5748e5396b-30">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="855" y="150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="5d2195bd80daf111-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;net_proto_family&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ family: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;+ create(&lt;/font&gt;&lt;span&gt;&lt;font face=&quot;menlo, monaco, courier new, monospace&quot;&gt;struct net *net, struct socket *sock,&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;menlo, monaco, courier new, monospace&quot;&gt;int protocol, int kern&lt;/font&gt;&lt;span&gt;): int&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
-          <mxGeometry x="550" y="-30" width="590" height="100" as="geometry" />
+          <mxGeometry x="530" y="-800" width="590" height="100" as="geometry" />
         </mxCell>
         <mxCell id="nPnTj5xX4SkfBffu697Y-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;fontColor=#000000;startFill=1;" edge="1" parent="1" source="_SGdVM72hPZveykd37PC-13" target="5d2195bd80daf111-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_SGdVM72hPZveykd37PC-13" value="&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;net_proto_family operator&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="649" y="-200" width="390" height="122" as="geometry" />
+          <mxGeometry x="630" y="-970" width="390" height="122" as="geometry" />
         </mxCell>
         <mxCell id="_SGdVM72hPZveykd37PC-14" value="&lt;span&gt;+ sock_register(const struct net_proto_family *ops) : int&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-13" vertex="1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
@@ -63,31 +63,31 @@
         <mxCell id="_SGdVM72hPZveykd37PC-20" value="+&amp;nbsp;&lt;span&gt;&amp;nbsp;&lt;/span&gt;net_families : int[]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-13" vertex="1">
           <mxGeometry y="78" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_SGdVM72hPZveykd37PC-24" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;sock&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;int __sock_create(struct net *net, int family, int type, int protocol,&amp;nbsp;&lt;span&gt;struct socket **res, int kern)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
-          <mxGeometry x="540" y="-330" width="590" height="70" as="geometry" />
+        <mxCell id="_SGdVM72hPZveykd37PC-24" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;Interface&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;socket&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;int __sock_create(struct net *net, int family, int type, int protocol,&amp;nbsp;&lt;span&gt;struct socket **res, int kern)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="320" y="-1080" width="590" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nPnTj5xX4SkfBffu697Y-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;fontColor=#000000;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_SGdVM72hPZveykd37PC-32" target="_SGdVM72hPZveykd37PC-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_SGdVM72hPZveykd37PC-32" value="&lt;span style=&quot;font-size: 10px&quot;&gt;inet_protosw&lt;/span&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="884.5" y="460" width="190" height="140" as="geometry">
+        <mxCell id="_SGdVM72hPZveykd37PC-32" value="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;inet_protosw&lt;/b&gt;&lt;/span&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="881.5" y="460" width="190" height="140" as="geometry">
             <mxRectangle x="120" y="340" width="110" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_SGdVM72hPZveykd37PC-33" value="+ list:&amp;nbsp;struct list_head" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-32" vertex="1">
           <mxGeometry y="26" width="190" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="_SGdVM72hPZveykd37PC-35" value="+ prot: struct prot" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-32" vertex="1">
+        <mxCell id="_SGdVM72hPZveykd37PC-35" value="&lt;b&gt;+ prot: struct prot&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-32" vertex="1">
           <mxGeometry y="50" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_SGdVM72hPZveykd37PC-34" value="+ type: short" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-32" vertex="1">
           <mxGeometry y="76" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_SGdVM72hPZveykd37PC-48" value="+ ops: struct proto_ops" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-32" vertex="1">
+        <mxCell id="_SGdVM72hPZveykd37PC-48" value="&lt;b&gt;+ ops: struct proto_ops&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-32" vertex="1">
           <mxGeometry y="102" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_SGdVM72hPZveykd37PC-50" value="inet_protosw&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;&amp;nbsp;operator&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="410" y="80" width="390" height="104" as="geometry">
+        <mxCell id="_SGdVM72hPZveykd37PC-50" value="&lt;b&gt;inet_protosw&lt;/b&gt;&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;&amp;nbsp;operator&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="665" y="-670" width="390" height="104" as="geometry">
             <mxRectangle x="-20" y="580" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -100,19 +100,19 @@
         <mxCell id="_SGdVM72hPZveykd37PC-51" value="&lt;span&gt;+ inet_register_protosw(struct inet_protosw *p) : void&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-50" vertex="1">
           <mxGeometry y="78" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_SGdVM72hPZveykd37PC-62" value="inet_protosw IPPROTO_TCP&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="840" y="700" width="279" height="175" as="geometry">
+        <mxCell id="_SGdVM72hPZveykd37PC-62" value="&lt;b&gt;&amp;lt;IPPROTO_TCP&amp;gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;inet_protosw&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="837" y="701" width="279" height="175" as="geometry">
             <mxRectangle x="-20" y="580" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_SGdVM72hPZveykd37PC-63" value="&lt;span&gt;{&lt;/span&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;.type =&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;SOCK_STREAM,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;.protocol =&amp;nbsp; &amp;nbsp;IPPROTO_TCP,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;.prot =&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;amp;tcp_prot,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;.ops =&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;amp;inet_stream_ops,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;.flags =&amp;nbsp; &amp;nbsp; &amp;nbsp; INET_PROTOSW_PERMANENT |&lt;/div&gt;&lt;div&gt;&lt;span&gt;   &lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; INET_PROTOSW_ICSK,&lt;/div&gt;&lt;div&gt;&lt;span&gt; &lt;/span&gt;},&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-62" vertex="1">
+        <mxCell id="_SGdVM72hPZveykd37PC-63" value="&lt;span&gt;{&lt;/span&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;.type =&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;SOCK_STREAM,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;.protocol =&amp;nbsp; &amp;nbsp;IPPROTO_TCP,&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span&gt;  &lt;/span&gt;.prot =&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;amp;tcp_prot,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span&gt;  &lt;/span&gt;.ops =&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;amp;inet_stream_ops,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;.flags =&amp;nbsp; &amp;nbsp; &amp;nbsp; INET_PROTOSW_PERMANENT |&lt;/div&gt;&lt;div&gt;&lt;span&gt;   &lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; INET_PROTOSW_ICSK,&lt;/div&gt;&lt;div&gt;&lt;span&gt; &lt;/span&gt;},&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-62" vertex="1">
           <mxGeometry y="26" width="279" height="144" as="geometry" />
         </mxCell>
         <mxCell id="nPnTj5xX4SkfBffu697Y-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;fontColor=#000000;startFill=1;" edge="1" parent="1" source="_SGdVM72hPZveykd37PC-69" target="_SGdVM72hPZveykd37PC-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_SGdVM72hPZveykd37PC-69" value="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;br&gt;&lt;/i&gt;proto&lt;/span&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-110" y="-330" width="350" height="930" as="geometry">
+        <mxCell id="_SGdVM72hPZveykd37PC-69" value="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;br&gt;&lt;/i&gt;proto&lt;/b&gt;&lt;/span&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="-300" width="350" height="930" as="geometry">
             <mxRectangle x="-100" y="330" width="110" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -135,7 +135,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_SGdVM72hPZveykd37PC-79" value="&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;proto_ops&lt;/b&gt;&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="350" y="200" width="390" height="331.5" as="geometry">
+          <mxGeometry x="260" y="-300" width="390" height="331.5" as="geometry">
             <mxRectangle x="400" y="670" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -145,7 +145,7 @@
         <mxCell id="_SGdVM72hPZveykd37PC-82" value="&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+&amp;nbsp;int&amp;nbsp;(*release)&amp;nbsp; &amp;nbsp;(struct socket *sock);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ int&amp;nbsp;(*bind)&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;(struct socket *sock,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; struct sockaddr *myaddr,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; int sockaddr_len);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ int&amp;nbsp;(*connect)&amp;nbsp; &amp;nbsp;(struct socket *sock,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; struct sockaddr *vaddr,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; int sockaddr_len, int flags);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ int&amp;nbsp;(*socketpair)(struct socket *sock1,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; struct socket *sock2);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ int&amp;nbsp;(*accept)&amp;nbsp; &amp;nbsp; (struct socket *sock,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; struct socket *newsock, int flags, bool kern);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ int&amp;nbsp;(*getname)&amp;nbsp; &amp;nbsp;(struct socket *sock,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; struct sockaddr *addr,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; int peer);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ __poll_t&amp;nbsp;(*poll)&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;(struct file *file, struct socket *sock,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; struct poll_table_struct *wait);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ int&amp;nbsp;(*ioctl)&amp;nbsp; &amp;nbsp; &amp;nbsp;(struct socket *sock, unsigned int cmd,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; unsigned long arg);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ int&amp;nbsp;(*gettstamp) (struct socket *sock, void __user *userstamp,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; bool timeval, bool time32);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ int&amp;nbsp;(*listen)&amp;nbsp; &amp;nbsp; (struct socket *sock, int len);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ int&amp;nbsp;(*shutdown)&amp;nbsp; (struct socket *sock, int flags);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ int&amp;nbsp;(*setsockopt)(struct socket *sock, int level,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; int optname, sockptr_t optval,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; unsigned int optlen);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ int&amp;nbsp;(*getsockopt)(struct socket *sock, int level,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; int optname, char __user *optval, int __user *optlen);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ void&amp;nbsp;(*show_fdinfo)(struct seq_file *m, struct socket *sock);&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ int&amp;nbsp;(*sendmsg)&amp;nbsp; &amp;nbsp;(struct socket *sock, struct msghdr *m,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; size_t total_len);&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-79" vertex="1">
           <mxGeometry y="60" width="390" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="_SGdVM72hPZveykd37PC-84" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;b&gt;inet_stream_ops&lt;/b&gt;&lt;/font&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+        <mxCell id="_SGdVM72hPZveykd37PC-84" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;b&gt;&amp;lt;inet_stream_ops&amp;gt;&lt;br&gt;proto_ops&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
           <mxGeometry x="350" y="670" width="390" height="456" as="geometry">
             <mxRectangle x="350" y="670" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -156,7 +156,7 @@
         <mxCell id="_SGdVM72hPZveykd37PC-86" value="&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;.release&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;= inet_release,&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.bind&lt;span&gt;  &lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_bind,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.connect&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_stream_connect,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.socketpair&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= sock_no_socketpair,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.accept&lt;span&gt;  &lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_accept,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.getname&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_getname,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.poll&lt;span&gt;  &lt;/span&gt;&amp;nbsp; &amp;nbsp;= tcp_poll,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.ioctl&lt;span&gt;  &lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_ioctl,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.gettstamp&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= sock_gettstamp,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.listen&lt;span&gt;  &lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_listen,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.shutdown&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_shutdown,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.setsockopt&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= sock_common_setsockopt,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.getsockopt&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= sock_common_getsockopt,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.sendmsg&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_sendmsg,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.recvmsg&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_recvmsg,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.sendpage&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_sendpage,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.splice_read&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= tcp_splice_read,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.read_sock&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= tcp_read_sock,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.sendmsg_locked&amp;nbsp; &amp;nbsp; = tcp_sendmsg_locked,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.sendpage_locked&amp;nbsp; &amp;nbsp;= tcp_sendpage_locked,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.peek_len&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= tcp_peek_len,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;#ifdef CONFIG_COMPAT&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.compat_ioctl&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_compat_ioctl,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;#endif&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt; &lt;/span&gt;.set_rcvlowat&lt;span&gt; &lt;/span&gt;&amp;nbsp; &amp;nbsp;= tcp_set_rcvlowat,&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_SGdVM72hPZveykd37PC-84" vertex="1">
           <mxGeometry y="60" width="390" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="_SGdVM72hPZveykd37PC-88" value="tcp_prot&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+        <mxCell id="_SGdVM72hPZveykd37PC-88" value="&lt;b&gt;&amp;lt;tcp_prot&amp;gt;&lt;/b&gt;&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;&lt;br&gt;prot&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
           <mxGeometry x="-120" y="661" width="370" height="680" as="geometry">
             <mxRectangle x="-20" y="580" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -167,24 +167,30 @@
         <mxCell id="nPnTj5xX4SkfBffu697Y-6" value="tcp" style="text;html=1;strokeColor=none;fillColor=#FFCC99;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-200" y="650" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nPnTj5xX4SkfBffu697Y-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;fontColor=#000000;startFill=1;" edge="1" parent="1" source="_SGdVM72hPZveykd37PC-52" target="17acba5748e5396b-31">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nPnTj5xX4SkfBffu697Y-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;fontColor=#000000;startFill=1;exitX=0.474;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_SGdVM72hPZveykd37PC-51" target="17acba5748e5396b-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="-290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="-555" />
+              <mxPoint x="970" y="-555" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="nPnTj5xX4SkfBffu697Y-20" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#FFFFFF;fontSize=12;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="-200" y="1350" width="1340" height="1340" as="geometry" />
         </mxCell>
-        <mxCell id="nPnTj5xX4SkfBffu697Y-21" value="inet_protosw&amp;nbsp;IPPROTO_MPTCP&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
+        <mxCell id="nPnTj5xX4SkfBffu697Y-21" value="&lt;b&gt;&amp;lt;IPPROTO_MPTCP&amp;gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;inet_protosw&lt;/b&gt;&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px&quot;&gt;&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
           <mxGeometry x="852" y="1370" width="279" height="185" as="geometry">
             <mxRectangle x="-20" y="580" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nPnTj5xX4SkfBffu697Y-22" value="&lt;div&gt;static struct inet_protosw mptcp_protosw = {&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.type&lt;span&gt;		&lt;/span&gt;= SOCK_STREAM,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.protocol&lt;span&gt;	&lt;/span&gt;= IPPROTO_MPTCP,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.prot&lt;span&gt;		&lt;/span&gt;= &amp;amp;mptcp_prot,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.ops&lt;span&gt;		&lt;/span&gt;= &amp;amp;mptcp_stream_ops,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.flags&lt;span&gt;		&lt;/span&gt;= INET_PROTOSW_ICSK,&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-21">
+        <mxCell id="nPnTj5xX4SkfBffu697Y-22" value="&lt;div&gt;static struct inet_protosw mptcp_protosw = {&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.type&lt;span&gt;		&lt;/span&gt;= SOCK_STREAM,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.protocol&lt;span&gt;	&lt;/span&gt;= IPPROTO_MPTCP,&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span&gt;	&lt;/span&gt;.prot&lt;span&gt;		&lt;/span&gt;= &amp;amp;mptcp_prot,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span&gt;	&lt;/span&gt;.ops&lt;span&gt;		&lt;/span&gt;= &amp;amp;mptcp_stream_ops,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.flags&lt;span&gt;		&lt;/span&gt;= INET_PROTOSW_ICSK,&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-21">
           <mxGeometry y="26" width="279" height="144" as="geometry" />
         </mxCell>
         <mxCell id="nPnTj5xX4SkfBffu697Y-23" value="mptcp" style="text;html=1;strokeColor=none;fillColor=#FFCC99;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-200" y="1370" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nPnTj5xX4SkfBffu697Y-24" value="&lt;i&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;lt;mptcp_prot&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;proto&lt;/span&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
+        <mxCell id="nPnTj5xX4SkfBffu697Y-24" value="&lt;b&gt;&lt;i&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;lt;mptcp_prot&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;proto&lt;/span&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
           <mxGeometry x="-120" y="1370" width="370" height="480" as="geometry">
             <mxRectangle x="20" y="2030" width="110" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -195,7 +201,7 @@
         <mxCell id="nPnTj5xX4SkfBffu697Y-26" value="+&amp;nbsp;&lt;span&gt;static struct proto mptcp_prot = {&lt;/span&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.name&lt;span&gt;		&lt;/span&gt;= &quot;MPTCP&quot;,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.owner&lt;span&gt;		&lt;/span&gt;= THIS_MODULE,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.init&lt;span&gt;		&lt;/span&gt;= mptcp_init_sock,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.disconnect&lt;span&gt;	&lt;/span&gt;= mptcp_disconnect,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.close&lt;span&gt;		&lt;/span&gt;= mptcp_close,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.accept&lt;span&gt;		&lt;/span&gt;= mptcp_accept,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.setsockopt&lt;span&gt;	&lt;/span&gt;= mptcp_setsockopt,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.getsockopt&lt;span&gt;	&lt;/span&gt;= mptcp_getsockopt,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.shutdown&lt;span&gt;	&lt;/span&gt;= mptcp_shutdown,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.destroy&lt;span&gt;	&lt;/span&gt;= mptcp_destroy,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.sendmsg&lt;span&gt;	&lt;/span&gt;= mptcp_sendmsg,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.recvmsg&lt;span&gt;	&lt;/span&gt;= mptcp_recvmsg,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.release_cb&lt;span&gt;	&lt;/span&gt;= mptcp_release_cb,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.hash&lt;span&gt;		&lt;/span&gt;= mptcp_hash,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.unhash&lt;span&gt;		&lt;/span&gt;= mptcp_unhash,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.get_port&lt;span&gt;	&lt;/span&gt;= mptcp_get_port,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.sockets_allocated&lt;span&gt;	&lt;/span&gt;= &amp;amp;mptcp_sockets_allocated,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.memory_allocated&lt;span&gt;	&lt;/span&gt;= &amp;amp;tcp_memory_allocated,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.memory_pressure&lt;span&gt;	&lt;/span&gt;= &amp;amp;tcp_memory_pressure,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.sysctl_wmem_offset&lt;span&gt;	&lt;/span&gt;= offsetof(struct net, ipv4.sysctl_tcp_wmem),&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.sysctl_rmem_offset&lt;span&gt;	&lt;/span&gt;= offsetof(struct net, ipv4.sysctl_tcp_rmem),&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.sysctl_mem&lt;span&gt;	&lt;/span&gt;= sysctl_tcp_mem,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.obj_size&lt;span&gt;	&lt;/span&gt;= sizeof(struct mptcp_sock),&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.slab_flags&lt;span&gt;	&lt;/span&gt;= SLAB_TYPESAFE_BY_RCU,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;.no_autobind&lt;span&gt;	&lt;/span&gt;= true,&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-24">
           <mxGeometry y="50" width="370" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="nPnTj5xX4SkfBffu697Y-35" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; text-align: left&quot;&gt;&amp;lt;mptcp_stream_ops&amp;gt;&lt;br&gt;inet_stream_ops&lt;br&gt;&lt;/span&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
+        <mxCell id="nPnTj5xX4SkfBffu697Y-35" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; text-align: left&quot;&gt;&lt;b&gt;&amp;lt;mptcp_stream_ops&amp;gt;&lt;br&gt;inet_stream_ops&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
           <mxGeometry x="360" y="1370" width="390" height="456" as="geometry">
             <mxRectangle x="360" y="1380" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -205,6 +211,139 @@
         </mxCell>
         <mxCell id="nPnTj5xX4SkfBffu697Y-37" value="&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+&amp;nbsp;&lt;span&gt;static const struct proto_ops mptcp_stream_ops = {&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.family&lt;span&gt;		&lt;/span&gt;&amp;nbsp; &amp;nbsp;= PF_INET,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.owner&lt;span&gt;		&lt;/span&gt;&amp;nbsp; &amp;nbsp;= THIS_MODULE,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.release&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_release,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.bind&lt;span&gt;		&lt;/span&gt;&amp;nbsp; &amp;nbsp;= mptcp_bind,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.connect&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;= mptcp_stream_connect,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.socketpair&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;= sock_no_socketpair,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.accept&lt;span&gt;		&lt;/span&gt;&amp;nbsp; &amp;nbsp;= mptcp_stream_accept,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.getname&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_getname,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.poll&lt;span&gt;		&lt;/span&gt;&amp;nbsp; &amp;nbsp;= mptcp_poll,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.ioctl&lt;span&gt;		&lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_ioctl,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.gettstamp&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;= sock_gettstamp,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.listen&lt;span&gt;		&lt;/span&gt;&amp;nbsp; &amp;nbsp;= mptcp_listen,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.shutdown&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_shutdown,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.setsockopt&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;= sock_common_setsockopt,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.getsockopt&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;= sock_common_getsockopt,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.sendmsg&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_sendmsg,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.recvmsg&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_recvmsg,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.mmap&lt;span&gt;		&lt;/span&gt;&amp;nbsp; &amp;nbsp;= sock_no_mmap,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;	&lt;/span&gt;.sendpage&lt;span&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;= inet_sendpage,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;};&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-35">
           <mxGeometry y="60" width="390" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-38" value="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;socket&lt;/b&gt;&lt;/span&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-670" width="190" height="208" as="geometry">
+            <mxRectangle x="300" y="-308" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-39" value="+ state: socket_state" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-38">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-40" value="+ type: short" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-38">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-41" value="+ flags: long" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-38">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-42" value="+ file: struct file" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-38">
+          <mxGeometry y="104" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-43" value="&lt;b&gt;+ sock:&amp;nbsp;sk&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-38">
+          <mxGeometry y="130" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-44" value="&lt;b&gt;+ ops: struct proto_ops&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-38">
+          <mxGeometry y="156" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-45" value="+ wq: stuct socket_wq" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-38">
+          <mxGeometry y="182" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;fontColor=#000000;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nPnTj5xX4SkfBffu697Y-44" target="_SGdVM72hPZveykd37PC-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="-460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="300" y="-501" />
+              <mxPoint x="300" y="-340" />
+              <mxPoint x="455" y="-340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-49" value="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;sock&lt;/b&gt;&lt;/span&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-780" width="240" height="350" as="geometry">
+            <mxRectangle x="300" y="-308" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-50" value="+ __sk_common: struct&amp;nbsp;sock_common" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-49">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-51" value="+ sk_rx_skb_cache: sk_buff" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-49">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-52" value="+ sk_receive_queue:&amp;nbsp;sk_buff_head" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-49">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-60" value="&lt;b&gt;+ sk_socket: struct socket&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-49">
+          <mxGeometry y="104" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-62" value="+ sk_reuseport_cb: struct sock_reuseport" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-49">
+          <mxGeometry y="130" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-53" value="+ sk_backlog:&amp;nbsp;&lt;br&gt;&lt;span&gt;struct {&lt;/span&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;atomic_t&lt;span&gt;	&lt;/span&gt;rmem_alloc;&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;int&lt;span&gt;		&lt;/span&gt;len;&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;struct sk_buff&lt;span&gt;	&lt;/span&gt;*head;&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;struct sk_buff&lt;span&gt;	&lt;/span&gt;*tail;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-49">
+          <mxGeometry y="156" width="240" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-57" value="+ sk_state_change(sock):&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-49">
+          <mxGeometry y="272" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-58" value="+&amp;nbsp;sk_data_ready(sock):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-49">
+          <mxGeometry y="298" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-61" value="+ sk_destruct(sock):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-49">
+          <mxGeometry y="324" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;fontColor=#000000;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nPnTj5xX4SkfBffu697Y-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="-300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="-1089" />
+              <mxPoint x="170" y="-300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-65" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; text-align: left&quot;&gt;&lt;b&gt;sock_common&lt;/b&gt;&lt;/span&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-1170" width="240" height="380" as="geometry">
+            <mxRectangle x="-120" y="-1180" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-66" value="+ skc_state: char" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-65">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-67" value="+ skc_reuseport: char" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-65">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-68" value="&lt;b&gt;+&amp;nbsp;skc_prot: struct proto&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-65">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-69" value="+ skc_net:&amp;nbsp;possible_net_t" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-65">
+          <mxGeometry y="104" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-70" value="+ skc_cookie:&amp;nbsp;atomic64_t" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-65">
+          <mxGeometry y="130" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-71" value="+&amp;nbsp;&lt;span&gt;union {&lt;/span&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;unsigned long&lt;span&gt;	&lt;/span&gt;skc_flags;&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;struct sock&lt;span&gt;	&lt;/span&gt;*skc_listener; /* request_sock */&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;struct inet_timewait_death_row *skc_tw_dr; /* inet_timewait_sock */&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;};&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-65">
+          <mxGeometry y="156" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-72" value="+ skc_refcnt: refcount_t" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-65">
+          <mxGeometry y="260" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-73" value="+&amp;nbsp;&lt;span&gt;union {&lt;/span&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;u32&lt;span&gt;		&lt;/span&gt;skc_rxhash;&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;u32&lt;span&gt;		&lt;/span&gt;skc_window_clamp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;u32&lt;span&gt;		&lt;/span&gt;skc_tw_snd_nxt; /* struct tcp_timewait_sock */&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;};&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="nPnTj5xX4SkfBffu697Y-65">
+          <mxGeometry y="286" width="240" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.05;entryDx=0;entryDy=0;dashed=1;fontSize=12;fontColor=#000000;startFill=1;entryPerimeter=0;" edge="1" parent="1" source="nPnTj5xX4SkfBffu697Y-50" target="nPnTj5xX4SkfBffu697Y-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-140" y="-741" />
+              <mxPoint x="-140" y="-1161" />
+              <mxPoint x="-122" y="-1161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=12;fontColor=#000000;startFill=1;" edge="1" parent="1" source="nPnTj5xX4SkfBffu697Y-60" target="nPnTj5xX4SkfBffu697Y-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="-731" as="sourcePoint" />
+            <mxPoint x="-111.92000000000007" y="-1141" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="-663" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-88" value="interface" style="text;html=1;strokeColor=none;fillColor=#FFCC99;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="-390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-89" value="socket" style="text;html=1;strokeColor=none;fillColor=#FFCC99;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="-1190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nPnTj5xX4SkfBffu697Y-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.034;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=12;fontColor=#000000;startFill=1;exitPerimeter=0;" edge="1" parent="1" source="nPnTj5xX4SkfBffu697Y-49" target="nPnTj5xX4SkfBffu697Y-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
